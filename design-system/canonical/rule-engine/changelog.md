@@ -59,6 +59,19 @@ Chronological log of all rule additions, modifications, status transitions, and 
 
 ---
 
+## 2026-05-01 — BTN-004 promoted to active
+
+- **Event:** Rule status transition
+- **Rule:** BTN-004 — Button Loading State Must Include Visually Hidden Loading Label
+- **Transition:** draft → active
+- **Rationale:** All gates passed in `ui-lab/reports/button-gate-run-btn-004-2026-05-01.md`. Implementation in place, dependency graph cites BTN-004 in `Button.tsx`/`Button.css`, accessibility canonical updated. Remaining draft status was the only blocker on closing the feedback cycle.
+- **Breaking:** No
+- **Migration file:** N/A
+- **Guardian approval:** 2026-05-01
+- **Snapshot:** `versions/v1.2.0.md`
+
+---
+
 ## 2026-05-01 — MVP complete; corpus snapshot v1.1.0 tagged
 
 - **Event:** MVP acceptance verified

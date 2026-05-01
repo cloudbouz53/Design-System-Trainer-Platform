@@ -74,6 +74,15 @@
     "TOK-002",
     "TOK-003"
   ],
+  "ui-lab/reports/button-gate-run-btn-004-2026-05-01.md": [
+    "BTN-004",
+    "BTN-003",
+    "BTN-001",
+    "BTN-002",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
   "ui-lab/reports/input-gate-run-2026-05-01.md": [
     "INP-001",
     "INP-002"
@@ -136,6 +145,28 @@
     "TOK-014"
   ],
   "design-system/canonical/rule-engine/versions/v1.0.0.md": [
+    "TOK-001",
+    "TOK-002",
+    "TOK-003",
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "INP-001",
+    "INP-002"
+  ],
+  "design-system/canonical/rule-engine/versions/v1.1.0.md": [
+    "BTN-004",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003",
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "INP-001",
+    "INP-002"
+  ],
+  "design-system/canonical/rule-engine/versions/v1.2.0.md": [
+    "BTN-004",
     "TOK-001",
     "TOK-002",
     "TOK-003",

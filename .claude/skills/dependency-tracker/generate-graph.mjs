@@ -7,7 +7,7 @@
  * LLMs must never edit the output files directly.
  */
 
-import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, mkdirSync, renameSync, unlinkSync } from 'fs';
 import { join, relative, extname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -52,8 +52,14 @@ function readSafe(path) {
 function writeAtomic(path, data) {
   const tmp = path + '.tmp';
   writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
-  // atomic rename via writeFileSync overwrite (Node doesn't expose rename cleanly cross-platform)
-  writeFileSync(path, JSON.stringify(data, null, 2), 'utf8');
+  renameSync(tmp, path);
+}
+
+function cleanupStaleTmps(dir) {
+  if (!existsSync(dir)) return;
+  for (const name of readdirSync(dir)) {
+    if (name.endsWith('.tmp')) unlinkSync(join(dir, name));
+  }
 }
 
 // ── Patterns ──────────────────────────────────────────────────────────────
@@ -215,6 +221,7 @@ function buildImpactSummary(targetId) {
 // ── Write outputs ──────────────────────────────────────────────────────────
 
 if (!existsSync(GRAPH_DIR)) mkdirSync(GRAPH_DIR, { recursive: true });
+cleanupStaleTmps(GRAPH_DIR);
 
 writeAtomic(join(GRAPH_DIR, 'component-import-graph.json'), componentImportGraph);
 writeAtomic(join(GRAPH_DIR, 'token-usage-graph.json'), tokenUsageGraph);
