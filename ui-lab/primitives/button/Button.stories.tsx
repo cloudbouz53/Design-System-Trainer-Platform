@@ -1,4 +1,4 @@
-// Rules: BTN-001 BTN-002 BTN-003
+// Rules: BTN-001 BTN-002 BTN-003 BTN-004
 // State coverage: default, hover, focus, active, disabled, loading (per canonical/states/button.md)
 import type { Meta, StoryObj } from '@storybook/react';
 import { userEvent, within } from '@storybook/test';

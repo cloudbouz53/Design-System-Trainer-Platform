@@ -47,3 +47,4 @@ The Accessibility Gate passes when:
 4. `aria-disabled="true"` is present on disabled state
 5. `aria-busy="true"` is present on loading state
 6. Contrast ratio ≥ 4.5:1 for all text/bg combinations
+7. (BTN-004) When `loading=true`: a visually hidden text node ("Loading…") is present inside `<button>`, is NOT `aria-hidden`, and uses the `.sr-only` clip-path pattern

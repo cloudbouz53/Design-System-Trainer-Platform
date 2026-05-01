@@ -1,4 +1,4 @@
-// Rules: BTN-001 BTN-002 BTN-003 TOK-001 TOK-002 TOK-003
+// Rules: BTN-001 BTN-002 BTN-003 BTN-004 TOK-001 TOK-002 TOK-003
 import React from 'react';
 import './Button.css';
 
@@ -35,7 +35,12 @@ export function Button({
       aria-busy={loading ? 'true' : undefined}
       onClick={isInteractive ? onClick : undefined}
     >
-      {loading && <span className="btn__spinner" aria-hidden="true" />}
+      {loading && (
+        <>
+          <span className="btn__spinner" aria-hidden="true" />
+          <span className="sr-only">Loading…</span>
+        </>
+      )}
       <span className="btn__label">{label}</span>
     </button>
   );

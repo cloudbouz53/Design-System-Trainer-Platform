@@ -19,6 +19,7 @@
     "BTN-001",
     "BTN-002",
     "BTN-003",
+    "BTN-004",
     "TOK-001",
     "TOK-002",
     "TOK-003"
@@ -26,12 +27,14 @@
   "ui-lab/primitives/button/Button.stories.tsx": [
     "BTN-001",
     "BTN-002",
-    "BTN-003"
+    "BTN-003",
+    "BTN-004"
   ],
   "ui-lab/primitives/button/Button.tsx": [
     "BTN-001",
     "BTN-002",
     "BTN-003",
+    "BTN-004",
     "TOK-001",
     "TOK-002",
     "TOK-003"
@@ -60,6 +63,9 @@
   ],
   "ui-lab/primitives/input/index.ts": [],
   "ui-lab/primitives/tokens.css": [],
+  "ui-lab/reports/btn-004-rebuild-plan-2026-05-01.md": [
+    "BTN-004"
+  ],
   "ui-lab/reports/button-gate-run-2026-05-01.md": [
     "TOK-001",
     "BTN-003",
@@ -72,7 +78,9 @@
     "INP-001",
     "INP-002"
   ],
-  "design-system/canonical/accessibility/button.md": [],
+  "design-system/canonical/accessibility/button.md": [
+    "BTN-004"
+  ],
   "design-system/canonical/accessibility/input.md": [],
   "design-system/canonical/components/BTN-001.md": [
     "BTN-001"

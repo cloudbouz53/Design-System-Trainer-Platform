@@ -1,6 +1,6 @@
 {
   "changedId": null,
-  "generatedAt": "2026-05-01T18:29:03.075Z",
+  "generatedAt": "2026-05-01T18:48:25.364Z",
   "tokenConsumers": {
     "--color-background": [
       "ui-lab/primitives/__fixture__/FixtureButton.tsx",
@@ -210,6 +210,16 @@
       "design-system/canonical/rule-engine/changelog.md",
       "design-system/canonical/rule-engine/versions/v1.0.0.md"
     ],
+    "BTN-004": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.stories.tsx",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/reports/btn-004-rebuild-plan-2026-05-01.md",
+      "design-system/canonical/accessibility/button.md",
+      "design-system/canonical/components/BTN-004.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md"
+    ],
     "TOK-002": [
       "ui-lab/primitives/button/Button.css",
       "ui-lab/primitives/button/Button.tsx",
@@ -253,11 +263,6 @@
       "design-system/canonical/rule-engine/RULES.md",
       "design-system/canonical/rule-engine/changelog.md",
       "design-system/canonical/rule-engine/versions/v1.0.0.md"
-    ],
-    "BTN-004": [
-      "design-system/canonical/components/BTN-004.md",
-      "design-system/canonical/rule-engine/RULES.md",
-      "design-system/canonical/rule-engine/changelog.md"
     ],
     "TOK-014": [
       "design-system/canonical/rule-engine/validation-checks.md"

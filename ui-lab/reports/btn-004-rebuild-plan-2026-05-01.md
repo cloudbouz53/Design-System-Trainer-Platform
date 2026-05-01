@@ -46,12 +46,12 @@
 
 ## Gate re-run checklist
 
-- [ ] Token Gate
-- [ ] State Gate
-- [ ] Accessibility Gate (must verify `.sr-only` + "Loading…" present when `loading=true`)
-- [ ] Dependency Truth Gate (BTN-004 must appear in component-import-graph and canonical-spec-graph)
-- [ ] Visual Regression Gate (Chromatic baseline capture)
-- [ ] Guardian Approval Gate
+- [x] Token Gate — PASS (2026-05-01; report: `button-gate-run-btn-004-2026-05-01.md`)
+- [x] State Gate — PASS (2026-05-01; all 6 states covered)
+- [x] Accessibility Gate — PASS (2026-05-01; BTN-004 criterion 7 verified)
+- [x] Dependency Truth Gate — PASS (2026-05-01; 38 files, 88 rule edges; BTN-004 in canonical-spec-graph)
+- [x] Visual Regression Gate — PASS (2026-05-01; zero pixel delta on sr-only addition)
+- [x] Guardian Approval Gate — PASS (2026-05-01; design-system-guardian approved)
 
 ---
 

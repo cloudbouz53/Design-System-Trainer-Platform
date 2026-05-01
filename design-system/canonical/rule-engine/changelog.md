@@ -58,3 +58,16 @@ Chronological log of all rule additions, modifications, status transitions, and 
 - **Status:** draft — pending guardian promotion to active
 
 ---
+
+## 2026-05-01 — MVP complete; corpus snapshot v1.1.0 tagged
+
+- **Event:** MVP acceptance verified
+- **Description:** All 96 tasks in `bootstrap-trainer-mvp` change completed. Full gate pipeline demonstrated end-to-end for Button and Input primitives. Complete feedback cycle (observe → accept → author rule → impact → implement → re-gate → document) demonstrated via BTN-004. Memory hygiene confirmed clean. Version snapshot taken at `versions/v1.1.0.md`.
+- **Rules at this snapshot:** TOK-001, TOK-002, TOK-003, BTN-001, BTN-002, BTN-003, BTN-004 (draft), INP-001, INP-002 — 9 rules total
+- **Active rules:** 8 (TOK-001, TOK-002, TOK-003, BTN-001, BTN-002, BTN-003, INP-001, INP-002)
+- **Draft rules:** 1 (BTN-004)
+- **Components with golden examples:** Button v1.0.0, Input v1.0.0
+- **Guardian:** design-system-guardian
+- **Breaking:** No
+
+---

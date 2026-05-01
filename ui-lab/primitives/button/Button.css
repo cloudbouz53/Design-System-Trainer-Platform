@@ -1,4 +1,4 @@
-/* Rules: BTN-001 BTN-002 BTN-003 TOK-001 TOK-002 TOK-003 */
+/* Rules: BTN-001 BTN-002 BTN-003 BTN-004 TOK-001 TOK-002 TOK-003 */
 
 .btn {
   /* BTN-003: uses <button> — semantic HTML is enforced in the component */
@@ -87,6 +87,19 @@
 .btn--lg {
   padding: var(--spacing-3) var(--spacing-4);
   font-size: var(--font-size-md);
+}
+
+/* BTN-004: visually hidden utility for sr-only loading label */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ── Loading spinner ────────────────────────────────────────────────────── */
