@@ -1,0 +1,107 @@
+/* Rules: BTN-001 BTN-002 BTN-003 TOK-001 TOK-002 TOK-003 */
+
+.btn {
+  /* BTN-003: uses <button> — semantic HTML is enforced in the component */
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-heading);
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 120ms ease, border-color 120ms ease, opacity 120ms ease;
+}
+
+/* BTN-001: visible focus ring */
+.btn:focus-visible {
+  outline: 2px solid var(--color-interactive);
+  outline-offset: 2px;
+}
+
+/* BTN-002: disabled state via opacity */
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ── Variants ───────────────────────────────────────────────────────────── */
+
+/* TOK-001: all color values via tokens */
+.btn--primary {
+  background-color: var(--color-interactive);
+  color: white; /* acceptable: white on interactive documented in TOK-001 good example */
+  border-color: var(--color-interactive);
+}
+
+.btn--primary:hover:not(:disabled):not([aria-disabled="true"]) {
+  filter: brightness(0.9);
+}
+
+.btn--primary:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: scale(0.98);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+}
+
+.btn--secondary:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--color-background-secondary);
+}
+
+.btn--secondary:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: scale(0.98);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: var(--color-text-primary);
+  border-color: transparent;
+}
+
+.btn--ghost:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--color-background-secondary);
+}
+
+/* ── Sizes ──────────────────────────────────────────────────────────────── */
+
+/* TOK-002: spacing via tokens */
+.btn--sm {
+  padding: var(--spacing-1) var(--spacing-2);
+  font-size: var(--font-size-xs);
+}
+
+.btn--md {
+  padding: var(--spacing-2) var(--spacing-3);
+}
+
+.btn--lg {
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-md);
+}
+
+/* ── Loading spinner ────────────────────────────────────────────────────── */
+
+.btn__spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: var(--radius-full);
+  animation: btn-spin 0.6s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes btn-spin {
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Chromatic visual regression configuration. CHROMATIC_PROJECT_TOKEN must be set as env var.",
+  "projectToken": "$CHROMATIC_PROJECT_TOKEN",
+  "buildScriptName": "build-storybook",
+  "onlyChanged": false,
+  "exitZeroOnChanges": false,
+  "autoAcceptChanges": false,
+  "diffThreshold": 0.063,
+  "componentOverrides": {
+    "button": {
+      "diffThreshold": 0.05,
+      "_comment": "Tighter tolerance for button — state coverage is well-defined"
+    },
+    "input": {
+      "diffThreshold": 0.05,
+      "_comment": "Tighter tolerance for input — state coverage is well-defined"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "changedId": null,
+  "generatedAt": "2026-05-01T18:29:03.075Z",
+  "tokenConsumers": {
+    "--color-background": [
+      "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "ui-lab/primitives/__fixture__/fixture.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-text-primary": [
+      "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "ui-lab/primitives/__fixture__/fixture.css",
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-sm": [
+      "ui-lab/primitives/__fixture__/fixture.css"
+    ],
+    "--spacing-md": [
+      "ui-lab/primitives/__fixture__/fixture.css"
+    ],
+    "--radius-md": [
+      "ui-lab/primitives/__fixture__/fixture.css",
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-2": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-sans": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-sm": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-weight-semibold": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--line-height-heading": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-interactive": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-border": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-background-secondary": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-1": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-xs": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-3": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-4": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-md": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--radius-full": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-weight-medium": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--line-height-body": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-text-secondary": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-interactive-ring": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-error": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-success": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--color-warning": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-6": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-8": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-12": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--spacing-16": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--radius-sm": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--radius-lg": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-mono": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-lg": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-xl": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-size-2xl": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-weight-regular": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--font-weight-bold": [
+      "ui-lab/primitives/tokens.css"
+    ],
+    "--letter-spacing-caps": [
+      "ui-lab/primitives/tokens.css"
+    ]
+  },
+  "ruleConsumers": {
+    "BTN-001": [
+      "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "ui-lab/primitives/__fixture__/README.md",
+      "ui-lab/primitives/__fixture__/fixture.css",
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.stories.tsx",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/components/BTN-001.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/validation-checks.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "TOK-001": [
+      "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "ui-lab/primitives/__fixture__/README.md",
+      "ui-lab/primitives/__fixture__/fixture.css",
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/input/Input.stories.tsx",
+      "ui-lab/primitives/input/Input.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/principles/TOK-001.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "BTN-002": [
+      "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "ui-lab/primitives/__fixture__/README.md",
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.stories.tsx",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/components/BTN-002.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "BTN-003": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.stories.tsx",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/components/BTN-003.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "TOK-002": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/input/Input.stories.tsx",
+      "ui-lab/primitives/input/Input.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/principles/TOK-002.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "TOK-003": [
+      "ui-lab/primitives/button/Button.css",
+      "ui-lab/primitives/button/Button.tsx",
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/input/Input.stories.tsx",
+      "ui-lab/primitives/input/Input.tsx",
+      "ui-lab/reports/button-gate-run-2026-05-01.md",
+      "design-system/canonical/principles/TOK-003.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "INP-001": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/input/Input.stories.tsx",
+      "ui-lab/primitives/input/Input.tsx",
+      "ui-lab/reports/input-gate-run-2026-05-01.md",
+      "design-system/canonical/components/INP-001.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "INP-002": [
+      "ui-lab/primitives/input/Input.css",
+      "ui-lab/primitives/input/Input.stories.tsx",
+      "ui-lab/primitives/input/Input.tsx",
+      "ui-lab/reports/input-gate-run-2026-05-01.md",
+      "design-system/canonical/components/INP-002.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md",
+      "design-system/canonical/rule-engine/versions/v1.0.0.md"
+    ],
+    "BTN-004": [
+      "design-system/canonical/components/BTN-004.md",
+      "design-system/canonical/rule-engine/RULES.md",
+      "design-system/canonical/rule-engine/changelog.md"
+    ],
+    "TOK-014": [
+      "design-system/canonical/rule-engine/validation-checks.md"
+    ]
+  },
+  "unsupported": [
+    {
+      "file": "ui-lab/primitives/__fixture__/FixtureButton.tsx",
+      "line": 24,
+      "reason": "dynamic import with computed specifier"
+    }
+  ]
+}

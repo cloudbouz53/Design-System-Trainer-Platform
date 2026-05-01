@@ -1,0 +1,146 @@
+{
+  "ui-lab/.storybook/main.ts": [],
+  "ui-lab/.storybook/preview.ts": [],
+  "ui-lab/primitives/__fixture__/FixtureButton.tsx": [
+    "BTN-001",
+    "TOK-001",
+    "BTN-002"
+  ],
+  "ui-lab/primitives/__fixture__/README.md": [
+    "BTN-001",
+    "BTN-002",
+    "TOK-001"
+  ],
+  "ui-lab/primitives/__fixture__/fixture.css": [
+    "BTN-001",
+    "TOK-001"
+  ],
+  "ui-lab/primitives/button/Button.css": [
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/primitives/button/Button.stories.tsx": [
+    "BTN-001",
+    "BTN-002",
+    "BTN-003"
+  ],
+  "ui-lab/primitives/button/Button.tsx": [
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/primitives/button/index.ts": [],
+  "ui-lab/primitives/input/Input.css": [
+    "INP-001",
+    "INP-002",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/primitives/input/Input.stories.tsx": [
+    "INP-001",
+    "INP-002",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/primitives/input/Input.tsx": [
+    "INP-001",
+    "INP-002",
+    "TOK-001",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/primitives/input/index.ts": [],
+  "ui-lab/primitives/tokens.css": [],
+  "ui-lab/reports/button-gate-run-2026-05-01.md": [
+    "TOK-001",
+    "BTN-003",
+    "BTN-001",
+    "BTN-002",
+    "TOK-002",
+    "TOK-003"
+  ],
+  "ui-lab/reports/input-gate-run-2026-05-01.md": [
+    "INP-001",
+    "INP-002"
+  ],
+  "design-system/canonical/accessibility/button.md": [],
+  "design-system/canonical/accessibility/input.md": [],
+  "design-system/canonical/components/BTN-001.md": [
+    "BTN-001"
+  ],
+  "design-system/canonical/components/BTN-002.md": [
+    "BTN-002"
+  ],
+  "design-system/canonical/components/BTN-003.md": [
+    "BTN-003"
+  ],
+  "design-system/canonical/components/BTN-004.md": [
+    "BTN-004"
+  ],
+  "design-system/canonical/components/INP-001.md": [
+    "INP-001"
+  ],
+  "design-system/canonical/components/INP-002.md": [
+    "INP-002"
+  ],
+  "design-system/canonical/principles/TOK-001.md": [
+    "TOK-001"
+  ],
+  "design-system/canonical/principles/TOK-002.md": [
+    "TOK-002"
+  ],
+  "design-system/canonical/principles/TOK-003.md": [
+    "TOK-003"
+  ],
+  "design-system/canonical/rule-engine/RULES.md": [
+    "TOK-001",
+    "TOK-002",
+    "TOK-003",
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "INP-001",
+    "INP-002",
+    "BTN-004"
+  ],
+  "design-system/canonical/rule-engine/changelog.md": [
+    "TOK-001",
+    "INP-002",
+    "TOK-002",
+    "TOK-003",
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "INP-001",
+    "BTN-004"
+  ],
+  "design-system/canonical/rule-engine/validation-checks.md": [
+    "BTN-001",
+    "TOK-014"
+  ],
+  "design-system/canonical/rule-engine/versions/v1.0.0.md": [
+    "TOK-001",
+    "TOK-002",
+    "TOK-003",
+    "BTN-001",
+    "BTN-002",
+    "BTN-003",
+    "INP-001",
+    "INP-002"
+  ],
+  "design-system/canonical/states/button.md": [],
+  "design-system/canonical/states/input.md": [],
+  "design-system/canonical/tokens/colors.md": [],
+  "design-system/canonical/tokens/radius.md": [],
+  "design-system/canonical/tokens/spacing.md": [],
+  "design-system/canonical/tokens/typography.md": []
+}

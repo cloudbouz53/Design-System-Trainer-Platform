@@ -1,0 +1,9 @@
+/* TEST FIXTURE — excluded from canonical promotion. */
+/* Rule citations: BTN-001, TOK-001 */
+
+.fixture-button {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+}
